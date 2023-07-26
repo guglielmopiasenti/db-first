@@ -11,13 +11,13 @@
 | mileage | INT | NOT NULL |
 | price | DECIMAL(10,2) | NOT NULL |
 | engine_type | VARCHAR(20) | NOT NULL |
-| engine_size | DECIMAL(3,1) | NULL |
+| engine_size | DECIMAL(4,1) | NULL |
 | transmission | VARCHAR(20) | NOT NULL |
 | fuel_type | VARCHAR(20) | NOT NULL |
 | body_type | VARCHAR(20) | NOT NULL |
 | color | VARCHAR(20) | NOT NULL |
-| number_of_doors | INT | NOT NULL |
-| number_of_seats | INT | NOT NULL |
+| number_of_doors | VARCHAR(1) | NOT NULL |
+| number_of_seats | VARCHAR(2) | NOT NULL |
 | VIN | VARCHAR(17) | UNIQUE |
 | license_plate | VARCHAR(10) | UNIQUE |
 | date_of_purchase | DATE | NULL |
